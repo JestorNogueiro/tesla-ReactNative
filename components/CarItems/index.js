@@ -2,9 +2,9 @@ import React from "react";
 import { View, Text, ImageBackground } from "react-native";
 import Button from "../Button";
 import styles from "./styles";
-const CarItem = (props) => {
-  const { modelName, modelDesc, modelImage, tagline, tagSub } = props.car;
-  console.log(props.car);
+const CarItems = (props) => {
+  const { modelName, modelImage, tagline, tagSub } = props.car;
+
   return (
     <View style={styles.carContainer}>
       <ImageBackground source={modelImage} style={styles.backgroundImage} />
@@ -30,4 +30,4 @@ const CarItem = (props) => {
   );
 };
 
-export default CarItem;
+export default CarItems;
