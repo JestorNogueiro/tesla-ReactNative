@@ -24,15 +24,15 @@ export default [
     tagSub: "TouchLess Delivery ",
   },
   {
-    modelName: "Solar Panel",
+    modelName: "Solar Panels",
     modelImage: require("../assets/images/SolarPanels.jpeg"),
-    tagline: "order online for",
-    tagSub: "TouchLess Delivery ",
+    tagline: "Lowest Cost Solar Panels",
+    tagSub: "in India ",
   },
   {
     modelName: "Solar Roof",
     modelImage: require("../assets/images/SolarRoof.jpeg"),
-    tagline: "order online for",
-    tagSub: "TouchLess Delivery ",
+    tagline: "Produce Clean Energy From ",
+    tagSub: "your roof",
   },
 ];
