@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, ImageBackground } from "react-native";
 import Button from "../Button";
 import styles from "./styles";
+
 const CarItems = (props) => {
   const { modelName, modelImage, tagline, tagSub } = props.car;
 
