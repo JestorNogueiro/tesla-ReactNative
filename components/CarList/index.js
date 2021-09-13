@@ -12,7 +12,7 @@ const CarList = () => {
         snapToAlignment={"start"}
         decelerationRate={"fast"}
         snapToInterval={Dimensions.get("window").height}
-        showsVerticalScrollIndicator={false}
+        showsVerticalScrollIndicator={"false"}
       />
       {/* <CarItems
         modelName="Model 3"

@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   },
   modelName: {
     fontSize: 40,
-    fontWeight: 600,
+    fontWeight: '600',
   },
   modelDescription: {
     fontSize: 16,
